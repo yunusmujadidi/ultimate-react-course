@@ -1,0 +1,12 @@
+/* App.css or a new CSS file */
+.App {
+  text-align: center;
+}
+
+.CounterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* This ensures it takes up the full viewport height */
+}
