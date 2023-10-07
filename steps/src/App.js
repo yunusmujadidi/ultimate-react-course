@@ -37,9 +37,7 @@ function App() {
           </div>
 
           <div className="content">
-            <p className="message">
-              Step {step} : {messages[step - 1]}
-            </p>
+            <StepMessage step={step}>{messages[step - 1]}</StepMessage>
           </div>
 
           <div className="buttons">
@@ -56,6 +54,14 @@ function App() {
   );
 }
 
+function StepMessage({ step, children }) {
+  return (
+    <p className="message">
+      <h3>Step: {step}</h3>
+      {children}
+    </p>
+  );
+}
 function Button({ bgColor, textColor, onClick, children }) {
   return (
     <button
