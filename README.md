@@ -10,8 +10,9 @@ This repository contains the projects that I completed while taking the Ultimate
 4. **React Flashcard**
 5. **Steps**
 6. **Travel List**
-7. **Tip Calculator**
-8. **Eat and Split**
+7. **Accordion**
+8. **Tip Calculator**
+9. **Eat and Split**
 
 ## Instructions
 
