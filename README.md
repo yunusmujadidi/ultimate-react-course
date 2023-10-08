@@ -13,7 +13,7 @@ This repository contains the projects that I completed while taking the Ultimate
 7. **Accordion**
 8. **Tip Calculator**
 9. **Eat and Split**
-10. **Use Popcord** (Movies Database)
+10. **Use Popcorn** (Movies Database)
 
 ## Instructions
 
