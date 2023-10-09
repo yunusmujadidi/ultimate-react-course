@@ -1,4 +1,5 @@
 import { useState } from "react";
+import StarRating from "./StarRating";
 
 const tempMovieData = [
   {
@@ -56,6 +57,7 @@ export default function App() {
 
   return (
     <>
+      <StarRating maxStars={5} />
       <Nav>
         <NumResults movies={movies} />
       </Nav>
